@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script>
+/*preloaded*/
+var image1=new Image();
+image1.src="image1.jpg";
+
+var image2=new Image();
+image2.src="image2.jpg";
+
+var image3=new Image();
+image3.src="image3.jpg";
+
+var image4=new Image();
+image4.src="image4.jpg";
+
+var image5=new Image();
+image5.src="image5.jpg";
+
+/*preloaded*/
+</script>
+</head>
+
+<body>
+<center>
+<img src="image1.jpg" name="onslide"
+width="1500px" height="2500px" />
+
+<script>
+var step=1;
+function onslide()
+{if(!document.images)
+return;
+document.images.onslide.src=eval
+("image"+step+".src");
+if(step<4)
+step++;
+else
+step=1;
+setTimeout("onslide()",2000);
+}
+onslide();
+</script>
+</center>
+</body>
+</html>

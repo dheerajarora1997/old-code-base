@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script>
+function onfo()
+{
+	document.bgColor="blue";
+	document.fgColor="white" ;
+}
+function onbl()
+{
+	document.bgColor="white";
+	document.fgColor="black" ;
+}
+function chain()
+{
+alert("plz don't change the value");
+document.ff.tt.value="first name";
+}
+function subb()
+{
+alert("your form is successfully submitted");
+}
+function loa()
+{
+alert("Loading..........");
+}
+function unloa()
+{
+alert("UnLoading..........");
+}
+</script>
+</head>
+
+<body onload="loa();"  onunload="unloa();">
+<form name="ff" onsubmit="subb();">
+Name1:<input name="tt" onchange="chain();" type="text" onfocus="onfo();" onblur="onbl();" value="first name" />
+<br />
+Name2:<input name="tf" type="text" />
+<br />
+<input type="submit" name="bgiu" />
+</body>
+</html>

@@ -1,0 +1,38 @@
+﻿
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Validation</title>
+<script type="text/javascript" src="javascript.js"></script>
+</head>
+<body>
+<form name="myform" action="something" onsubmit="return validateForm()" method="post">
+FirstName:<input type="text" name="fname"/>
+LastName:<input type="text" name="lname"/>
+<input type="submit" value="submit">
+</form>
+</body>
+</html>
+
+and your java script file is(save as javascript.js)
+function validateForm()
+{
+    var x=document.forms["myform"]["fname"].value;  
+    if(x==null || x=="" )
+    {
+        alert("name can't be left blank");
+        return false;
+    }
+
+    var y=document.forms["myform"]["lname"].value;
+    if(y==null || y=="")
+    {
+        alert("last name is mandatory");
+        return false;
+    }
+    else
+    {
+        return true;
+    }
+
+}
