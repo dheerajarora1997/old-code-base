@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" language="javascript" src="js/jquery-plugin.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/change.js"></script>
+<link rel="stylesheet" type="text/css"href="style.css" />
+<link rel="stylesheet" type="text/css"href="style1.css" />
+<link rel="stylesheet" type="text/css"href="style2.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Design your self</title>
+</head>
+
+<body id="chngd2">
+<div class="change"><br>
+<button id="btn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br><br>
+<button id="ylw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br><br>
+<button id="org">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+</div>
+<div id="container">
+<div id="chngd1" class="header">
+<ul class="menu">
+<a href="home.html"><li>Home</li></a>
+<a href="expert.html"><li>Experts</li></a>
+<a href="blog.html"><li>Blog</li></a>
+<a href="design.html"><li id="chngd0" class="active">Design</li></a>
+<a href="contact.html"><li>Contact us</li></a>
+</ul>
+</div>
+<br>
+<br>
+<br>
+<div class="mid">
+<table border="0" width="800" height="200" >
+<tr><td><input id="chngd3" placeholder="scearh" align="middle" class="but0" type="text"><input class="but1" value="L" disabled id="chngd4" type="text"></td>
+<td><a href="home.html"><div id="chngd" class="loogo">
+<img src="images/logo.png" width="250px" height="145px">
+<strong>fashion for india</strong>
+</div></a></td>
+<td><div class="social">
+<span class="follow"> FOLLOW US</span><br> <br>
+<ul class="smenu">
+<li><img src="images/fb.png" width="35px" height="35px "></li>
+<li><img src="images/tweet.png" width="35px" height="35px "></li>
+<li><img src="images/google+.png" width="35px" height="35px "></li>
+<li><img src="images/inst.png" width="35px" height="35px "></li>
+<li><img src="images/tube.png" width="35px" height="35px "></li>
+</ul>
+</div></td></tr>
+</table>
+</div><br>
+<br>
+
+<table width="900" height="200" border="1">
+<tr>
+<td>
+<h4>Select your Tshirt color </h4><br>
+
+<select class="butt" style="width:100px;" id="bcolor" >
+<option value="White">White</option>
+<option value="cyan">cyan</option>
+<option value="#922020">RED</option>
+<option value="#26b99f">NAVY GREEN</option>
+<option value="#dbdbdb">Grey</option>
+<option value="#984716">Brown</option>
+<option value="#22227c">BLUE</option>
+<option value="orange">ORANGE</option>
+</select><br>
+<br>
+<h4>Select your Tshirt design </h4><br>
+<!--<select class="butt" style="width:100px;" id="dgn" >
+<option value="tsirt0">1</option>
+<option value="tsirt1">2</option>
+<option value="tsirt2">3</option>
+<option value="tsirt3">4</option>
+<option value="tsirt4">5</option>
+<option value="tsirt5">6</option>
+</select>
+-->
+<button id="chng" value="design1" class="butt"><img src="images/tshirt0.png" width="50px" height="50px"></button>
+<button id="chng1" value="design2" class="butt"><img src="images/tshirt1.png" width="50px" height="50px"></button>
+<button id="chng2" value="design3" class="butt"><img src="images/tshirt2.png" width="50px" height="50px"></button><br><br>
+<button id="chng3" value="design4" class="butt"><img src="images/tshirt3.png" width="50px" height="50px"></button>
+<button id="chng4" value="design5" class="butt"><img src="images/tshirt4.png" width="50px" height="50px"></button><br><br>
+<button id="chng5" value="design6" class="butt"><img src="images/tshirt5.png" width="50px" height="50px"></button><br><br>
+
+</td>
+<td  colspan="2"><img id="img00" class="tsirt0" width="450px" height="500px"/>
+</td>
+</tr>
+<tr>
+<td>
+<h4>Select your Jeans color </h4><br>
+
+<select class="butt" style="width:100px;" id="bbcolor" >
+<option value="#64bedb">sky</option>
+<option value="white">White</option>
+<option value="#c23737">RED</option>
+<option value="#393982">BLUE</option>
+<option value="#51b32b">GREEN</option>
+
+
+</select><br>
+<br>
+<br>
+<br>
+<input type="submit" id="chngg" class="butt" value="Save Design">
+</td>
+<td colspan="2"><img id="img01" class="jeans" width="450px" height="500px"/>
+</td>
+</tr>
+
+
+</table>
+<br>
+<h4>desined by : <strong>DHEERAJ ARORA</strong></h4>
+<br>
+<div id="chngd6" class="copyright">All Rights &reg; indofashion.in</div>
+
+</div>
+</body>
+</html>
+<script>
+	var my=$('#bcolor').val();
+	$('#img00').css("background-color",my);
+	$('#bcolor').change(function(){
+		var my=$('#bcolor').val();
+		$("#img00").css("background-color",my)
+		});
+
+
+	var my=$('#bbcolor').val();
+	$('#img01').css("background-color",my);
+	$('#bbcolor').change(function(){
+		var my=$('#bbcolor').val();
+		$("#img01").css("background-color",my)
+		});
+		
+		
+$(document).ready(function(){
+	$('#btn').click(function(){
+		$('#chngd0').addClass('active1');
+		$('#chngd0').removeClass('active');
+		$('#chngd0').removeClass('active2');
+		$('#chngd').addClass('loogo1');
+		$('#chngd').removeClass('loogo');
+		$('#chngd').removeClass('loogo2');
+		$('#chngd1').addClass('header1');
+		$('#chngd1').removeClass('header');
+		$('#chngd1').removeClass('header2');
+		$('#chngd3').addClass('input1');
+		$('#chngd3').removeClass('input0');
+		$('#chngd3').removeClass('input2');
+		$('#chngd2').addClass('body1');
+		$('#chngd2').removeClass('body2');
+		$('#chngd4').addClass('but0000');
+		$('#chngd4').removeClass('but0000b');
+		$('#chngd4').removeClass('but1');
+		$('#chngd4').removeClass('but000b');
+		$('#bcolor').addClass('input1');
+		$('#bcolor').removeClass('butt');
+		$('#bcolor').removeClass('input2');
+		$('#bbcolor').addClass('input1');
+		$('#bbcolor').removeClass('butt');
+		$('#bbcolor').removeClass('input2');
+		$('#chngd6').addClass('copyright1');
+		$('#chngd6').removeClass('copyright');
+		$('#chngd6').removeClass('copyright2');
+		$('#chng').addClass('input1');
+		$('#chng').removeClass('butt');
+		$('#chng').removeClass('input2');
+		$('#chng1').addClass('input1');
+		$('#chng1').removeClass('input2');
+		$('#chng1').removeClass('butt');
+		$('#chng2').addClass('input1');
+		$('#chng2').removeClass('butt');
+		$('#chng2').removeClass('input2');
+		$('#chng3').addClass('input1');
+		$('#chng3').removeClass('butt');
+		$('#chng3').removeClass('input2');
+		$('#chng4').addClass('input1');
+		$('#chng4').removeClass('butt');
+		$('#chng4').removeClass('input2');
+		$('#chng5').addClass('input1');
+		$('#chng5').removeClass('butt');
+		$('#chng5').removeClass('input2');
+		$('#chngg').addClass('input1');
+		$('#chngg').removeClass('butt');
+		$('#chngg').removeClass('input2');
+		
+
+
+	$('#ylw').click(function(){
+		$('#chngd0').addClass('active2');
+		$('#chngd0').removeClass('active');
+		$('#chngd0').removeClass('active1');
+		$('#chngd').addClass('loogo2');
+		$('#chngd').removeClass('loogo');
+		$('#chngd').removeClass('loogo1');
+		$('#chngd1').addClass('header2');
+		$('#chngd1').removeClass('header');
+		$('#chngd1').removeClass('header1');
+		$('#chngd3').addClass('input2');
+		$('#chngd3').removeClass('input0');
+		$('#chngd3').removeClass('input1');
+		$('#chngd2').addClass('body2');
+		$('#chngd2').removeClass('body1');
+		$('#chngd4').addClass('but0000b');
+		$('#chngd4').removeClass('but1');
+		$('#chngd4').removeClass('but0000');
+		$('#bcolor').addClass('input2');
+		$('#bcolor').removeClass('input1');
+		$('#bcolor').removeClass('butt');
+		$('#bcolor').removeClass('butt');
+		$('#bbcolor').addClass('input2');
+		$('#bbcolor').removeClass('input1');
+		$('#bbcolor').removeClass('butt');
+		$('#chngd6').addClass('copyright2');
+		$('#chngd6').removeClass('copyright');
+		$('#chngd6').removeClass('copyright1');
+		$('#chng').addClass('input2');
+		$('#chng').removeClass('input1');
+		$('#chng').removeClass('butt');
+		$('#chng1').removeClass('input1');
+		$('#chng1').addClass('input2');
+		$('#chng1').removeClass('butt');
+		$('#chng2').addClass('input2');
+		$('#chng2').removeClass('input1');
+		$('#chng2').removeClass('butt');
+		$('#chng3').addClass('input2');
+		$('#chng3').removeClass('input1');
+		$('#chng3').removeClass('butt');
+		$('#chng4').addClass('input2');
+		$('#chng4').removeClass('input1');
+		$('#chng4').removeClass('butt');
+		$('#chng5').addClass('input2');
+		$('#chng5').removeClass('input1');
+		$('#chng5').removeClass('butt');
+		$('#chngg').addClass('input2');
+		$('#chngg').removeClass('input1');
+		$('#chngg').removeClass('butt');
+
+	$('#org').click(function(){
+
+		$('#chngd0').addClass('active');
+		$('#chngd0').removeClass('active1');
+		$('#chngd0').removeClass('active2');
+		$('#chngd').addClass('loogo');
+		$('#chngd').removeClass('loogo1');
+		$('#chngd').removeClass('loogo2');
+		$('#chngd1').addClass('header');
+		$('#chngd1').removeClass('header1');
+		$('#chngd1').removeClass('header2');
+		$('#chngd3').addClass('input0');
+		$('#chngd3').removeClass('input1');
+		$('#chngd3').removeClass('input2');
+		$('#chngd2').removeClass('body1');
+		$('#chngd2').removeClass('body2');
+		$('#chngd4').addClass('but1');
+		$('#chngd4').removeClass('but0000b');
+		$('#chngd4').removeClass('but0000');
+		$('#chngd4').removeClass('but000b');
+		$('#bcolor').addClass('butt');
+		$('#bcolor').removeClass('input1');
+		$('#bcolor').removeClass('input2');
+		$('#bbcolor').addClass('butt');
+		$('#bbcolor').removeClass('input1');
+		$('#bbcolor').removeClass('input2');
+		$('#chngd6').addClass('copyright');
+		$('#chngd6').removeClass('copyright1');
+		$('#chngd6').removeClass('copyright2');
+		$('#chng').addClass('butt');
+		$('#chng').removeClass('input1');
+		$('#chng').removeClass('input2');
+		$('#chng1').addClass('butt');
+		$('#chng1').removeClass('input2');
+		$('#chng1').removeClass('input1');
+		$('#chng2').addClass('butt');
+		$('#chng2').removeClass('input1');
+		$('#chng2').removeClass('input2');
+		$('#chng3').addClass('butt');
+		$('#chng3').removeClass('input1');
+		$('#chng3').removeClass('input2');
+		$('#chng4').addClass('butt');
+		$('#chng4').removeClass('input1');
+		$('#chng4').removeClass('input2');
+		$('#chng5').addClass('butt');
+		$('#chng5').removeClass('input1');
+		$('#chng5').removeClass('input2');
+		$('#chngg').addClass('butt');
+		$('#chngg').removeClass('input1');
+		$('#chngg').removeClass('input2');
+
+
+	});
+	});
+
+	});
+	});
+</script>

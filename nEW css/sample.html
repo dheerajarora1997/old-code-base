@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" language="javascript" src="js/jquery-plugin.min.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="style1.css">
+<style>
+.h{background-color:red; color:white; width:200px; height:200px; display:none;}
+#but{background-color:red; width:20px;}
+.bg{background-color:red; border-radius:60px 60px 0 0;}
+.gg{background-color:#0C9;}
+.gg0{background-color:red;}
+</style>
+</head>
+
+<body>
+<button id="btn">ycdhvdsjlgvdslvgdsjlvgsjdvhdsjvds</button><br />
+<div class="h">sva</div>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<p>saucasvj</p>
+<br />
+<select style="width:100px;" id="bcolor" >
+<option value="red">RED</option>
+<option value="blue">BLUE</option>
+<option value="green">GREEN</option>
+<option value="cyan">cyan</option>
+</select>
+<h1>toogle</h1>
+ <div id="chng" class="loogo1">jvhsdvkjdsv</div>
+ <div class="header1">vkjdsbvdskjb</div>
+<h6>heading 6</h6><span id="add"></span></body>
+<img  src="images/tshirt0.png" width="269px" height="375px" />
+<input style="width:400px" height="400" class="gg" type="button" id="if"  />
+<p class="gg"  class="tab">kjfucgchgc
+ i i </p> <br />
+<br />
+
+
+</html>
+<script>
+
+
+	var my=$('#bcolor').val();
+	$('img').css("background-color",my);
+	$('#bcolor').change(function(){
+		var my=$('#bcolor').val();
+		$("img").css("background-color",my)
+		});
+
+</script>
+
+<script>
+$(document).ready(function(){
+	$('#if').click(function(){
+		$('p').removeClass('gg')
+		$('p').addClass('gg0')
+		
+			});
+				});
+
+$(document).ready(function(){
+	$('#btn').click(function(){
+		$('#chng').addClass('loogo');
+		$('#chng').removeClass('loogo1');
+	});
+	});
+
+$(document).ready(function(){
+	$('#btn').click(function(){
+		$('#chng').addClass('header');
+		$('#chng').removeClass('header1');
+	});
+	});
+
+
+</script>

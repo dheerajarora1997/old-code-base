@@ -1,0 +1,174 @@
+/*copyright color is #e49115*/
+/*copyright color is #08bdbd*/
+*{margin:0 auto;
+	padding:0;
+	box-sizing:border-box;
+	font-family:"Comic Sans MS", cursive}
+.input1{background-color:none;
+		border-radius:1px;
+		border: cyan solid 2px;
+		cursor:pointer;
+		background-color:cyan;
+		color:black;
+		text-align:justify;}
+.textarea1{border: cyan solid 2px;
+			text-align:center;
+			padding-top:10px;
+		border-radius:1px;}
+
+.tab1{background-color:cyan;}
+
+::-webkit-input-placeholder{color:#000;text-align:center;}
+::-moz-input-placeholder{color:#000;text-align:center;}
+::-o-input-placeholder{color:#000;text-align:center;}		
+
+.txt1{background-color:cyan;
+		color:black;
+		width:1100px;	
+		text-align:justify;}
+td img {cursor:pointer;
+padding:5px;}
+.bor1{border:cyan 2px solid;}
+h1{text-align:center;}
+
+h4{color:white;
+text-align:center;}
+h2{color:white;
+text-align:center;}
+
+a{text-decoration:none;
+color:black;}
+ul{list-style-type:none;}
+
+.body1{background-color:cyan;}
+
+.active1{color:grey;
+	text-decoration:line-through;}
+
+#container{background-color:black;
+width:1200px;
+text-align:center;
+min-height:960px;
+margin-top:3px;
+border-radius: 50px 50px 0 0 ;}
+
+.header1{width:850px;
+background-color:cyan;
+height:55px;
+margin-left:200px;
+text-align:center;
+position:fixed;
+z-index:500;}
+
+.menu{display:flex;
+line-height:45px;
+color:black;}
+
+.menu li{font-size:18px;
+-moz-transition:all 0.3s linear;
+-o-transition:all 0.3s linear;
+-webkit-transition:all 0.3s linear;}
+
+.menu li:hover{ 
+color:Grey;
+text-decoration:line-through;
+-moz-transition:all 0.3s linear;
+-o-transition:all 0.3s linear;
+-webkit-transition:all 0.3s linear;
+ cursor:pointer;}
+ 
+ .loogo1{background-color:cyan;
+ width:260px;
+ color:BLACK;
+ font-size:25px;
+ height:195px;
+ }
+.social{background-color:none;
+color:white;
+width:200px;
+text-align:justify;
+padding-left:20px;
+height:120px;
+left:800px;
+border-radius:0 15px 15px 0;
+} 
+.social li{margin-left:10px;
+cursor:pointer;
+opacity:0.5;}
+.social li:hover{opacity:1}
+.smenu{display:inline-flex;}
+
+.follow{margin-left:30px;}
+
+.content1{background-color:cyan;
+width:350px;
+height:330px;
+text-align:justify;
+display:inline-block;
+margin:15px;
+color:black;
+padding:8px;
+font-size:18px;
+}
+
+.mid{background-color:none;
+text-align:center;
+width:1000px;
+margin-left:100px;}
+
+.but000{background-color:white;
+		cursor:text;
+		border: cyan solid 2px;
+		height:30px;
+}
+.but0000{background-color:white;
+		cursor:pointer;
+		font-size:18px;
+		color:black;
+		font-family:Webdings;
+		width:23px;
+		border:1px cyan solid;
+		height:30px;
+}
+.bbt{background-color:cyan;
+color:black;}
+.txtarea{background-color:none;
+border:2px solid cyan;
+color:black;}
+
+
+.round1{background-color:cyan;
+margin-left:200px;
+		width:850px;
+		height:500px;}
+
+.tsirt0{background-image:url(images/tshirt0.png);
+text-align:center;}
+
+.tsirt1{background-image:url(images/tshirt1.png);
+text-align:center;}
+
+.tsirt2{background-image:url(images/tshirt2.png);
+text-align:center;}
+
+.tsirt3{background-image:url(images/tshirt3.png);
+text-align:center;}
+
+.tsirt4{background-image:url(images/tshirt4.png);
+text-align:center;}
+
+.tsirt5{background-image:url(images/tshirt5.png);
+text-align:center;}
+
+.jeans{background-image:url(images/jeans.png);
+text-align:center;
+height:480px;
+background-repeat:no-repeat;}
+
+
+.copyright1{background-color:#08bdbd;
+color:black;
+font-size:20px;
+text-align:center;
+width:1200px;
+height:32px;}

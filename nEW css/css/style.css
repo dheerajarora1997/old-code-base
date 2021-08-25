@@ -1,0 +1,60 @@
+/*--main--*/
+.content-top{
+	padding:10% 0;
+}
+#flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
+	display:inline-block;
+}
+.nbs-flexisel-container {
+	position: relative;
+	max-width: 80%;
+}
+.nbs-flexisel-ul {
+	position: relative;
+	width: 9999px;
+	margin: 5px;
+	padding: 5px;
+	list-style-type: none;
+	text-align:justify;
+}
+.nbs-flexisel-inner {
+	overflow: hidden;
+	margin: 0 auto;
+}
+.nbs-flexisel-item {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	cursor:auto;
+	position: relative;
+	line-height: 0px;
+}
+.nbs-flexisel-item > img {
+	width:60%;
+	cursor:wait;
+	positon: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	max-width:210px;
+	max-height:217px;
+}
+/*** Navigation ***/
+.nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
+	width:140px;
+	height: 245px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 100;
+}
+.nbs-flexisel-nav-left {
+	left: 65px;
+	background: url(../images/img-spritel.png) no-repeat ;
+}
+.nbs-flexisel-nav-right {
+	right:99px;
+	background: url(../images/img-sprite.png) no-repeat 50px;
+}
+.close_but{
+	text-align:center;
+	margin-bottom:50px;
+}

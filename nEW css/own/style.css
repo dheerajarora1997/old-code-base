@@ -1,0 +1,33 @@
+/*copyright color is #e49115*/
+*{margin:0 auto;
+	padding:0;
+	box-sizing:border-box;
+	font-family:"Comic Sans MS", cursive}
+input{background-color:none;
+		border-radius:1px;
+		border: orange solid 2px;
+		cursor:text;}
+
+a{text-decoration:none;
+color:black;}
+
+body{background-color:orange;}
+
+
+.but{background-color:orange;
+cursor:pointer;
+color:white;
+margin-left:250px;
+text-align:justify;}
+
+.but0{background-color:orange;
+cursor:pointer;
+color:white;
+margin-left:170px;
+text-align:justify;}
+.box{background-color:black;
+color:white;
+border-radius:5%;
+margin: 220px 0 0 370px;
+width:80%;
+height:100%;}
