@@ -1,0 +1,45 @@
+header{
+	background:#323232;
+	color:#00ADB5;
+	padding:20px 0 0 0;
+	position:relative;
+	z-index:9;}
+#myCarousel{
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:-9;}
+header .fa{
+	margin:0 10px;}
+header span{
+	border-right:1px solid #00ADB5;
+	margin-right:10px;}
+header h1,header h2,header h3,header h4,header h5,header h6,header a{
+	color:#eeeeee;}
+header h1:hover,header h2:hover,header h3:hover,header h4:hover,header h5:hover,header h6:hover,header a:hover{
+	color:#fbfbfb;
+	cursor:pointer;}
+header .nav-bar {
+	background:#eeeeee;
+	position:relative;
+	bottom:-25px;}
+header .nav-bar nav ul{
+	list-style-type:none;
+	display:inline-flex;}
+header .nav-bar nav ul li{
+	line-height:3;
+	padding:0 10px;
+	margin:0 15px;
+	font-weight:700;}
+header .nav-bar nav ul li a{
+	color:#00ADB5;
+	text-decoration:none;}
+header .nav-bar nav ul li a:hover{
+	transition-duration:2s;
+	-webkit-transform:scale(1.1,1.1);
+	transform:scale(1.1,1.1);}
+header .nav-bar nav ul li.active{
+	border-top:3px solid #00ADB5;}
+header .nav-bar nav .search-icon{
+	line-height:3;
+	border:none;}

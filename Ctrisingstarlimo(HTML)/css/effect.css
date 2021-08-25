@@ -1,0 +1,240 @@
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+	margin:0 0;
+	padding:15px 0;
+	background:#eee;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+#portfolio {  
+    margin: 1rem 0;
+    -webkit-column-count: 3; 
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 1rem;
+    -moz-column-gap: 1rem;
+    column-gap: 1rem;
+    -webkit-column-width: 33.33333333333333%;
+    -moz-column-width: 33.33333333333333%;
+    column-width: 33.33333333333333%;
+}
+.tile { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+
+}
+.tile:hover { 
+
+}
+
+.scale-anm {
+  transform: scale(1);
+}
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    line-height: normal;
+    padding: .5rem 1rem;
+    border: 1px solid;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    color: #555;
+    background-color: rgba(0, 0, 0, 0);
+	border-radius:0;
+	padding:10px 20px;
+}
+
+.btn:hover {
+  text-decoration: none;
+  background-color: #00ADB5;
+  color:#fff;
+  border:1px solid #00ADB5;
+}
+
+
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+.toolbar{
+	margin:40px 0;}
+.accordion-panal{
+	margin:70px 0 50px;}
+a.contact-btn:hover{
+	background:#008a90;
+	border-color:#008a90;
+	color:#fff;}
+a.contact-btn-border:hover{
+	background:#323232;
+	border-color:#323232;
+	color:#eee;
+	}
+.main-circle{
+	height:350px;
+	padding-left:40px;}
+.circle-border{
+	border-radius:60%;
+	border:4px solid #eee;
+	position:relative;
+	width:300px;
+	height:300px;}
+.circle1,.circle2,.circle3,.circle4,.circle5,.circle6,.circle7,.circle8{
+	position: absolute;
+	border: 1px solid #eee;
+	border-radius: 60%;
+	width: 55px;
+	height: 55px;
+	background:#eee;
+	color:#00ADB5;
+	font-size:22px;
+	padding:12px 0;}
+.circle1{
+	top:18px;
+	left:0px;}
+.circle2{
+	top:-30px;
+	left: 119px;}
+.circle3{
+	top: 18px;
+	left: 230px;}
+.circle4{
+	top:121px;
+	left:267px;}
+.circle5{
+	top:220px;
+	left:230px;}
+.circle6{
+	top:265px;
+	left:118px;}
+.circle7{
+	top:220px;
+	left:10px;}
+.circle8{
+	top:121px;
+	left:-27px;}
+.circle-text1,.circle-text2,.circle-text3,.circle-text4,.circle-text5,.circle-text6,.circle-text7,.circle-text8{
+	position:absolute;
+	top: 140px;
+    left: 80px;
+	color:#00ADB5;
+	text-align:center;}
+.circle-text2,.circle-text3,.circle-text4,.circle-text5,.circle-text6,.circle-text7,.circle-text8,.circle-text1{
+	display:none;}
+.oncircle{
+	background:#00ADB5;
+	color:#eee;
+	border-color:#00ADB5;}
+.showText{
+	display:block;}

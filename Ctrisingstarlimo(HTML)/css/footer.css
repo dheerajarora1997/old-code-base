@@ -1,0 +1,30 @@
+footer{
+	background:#323232;
+	padding:40px 0 0px;}
+footer h1,footer h2,footer h3,footer h4,footer h5,footer h6,footer a{
+	color:#00ADB5;}
+footer p, footer li{
+	color:#eee;}
+footer ul#post{
+	list-style:none;
+	padding:0;}
+footer ul#post .post-title{
+	font-weight:700;}
+footer ul#post .post-description{
+	font-size:1.1rem;}
+footer .widget i.fa{
+	padding:10px;
+	margin:5px;
+	border:1px solid #eee;
+	color:#eee;}
+footer .widget i.fa:hover{
+	color:#323232;
+	background:#eee;
+	}
+footer .widget i.fa-facebook{
+	padding:10px 13px;}
+footer .copyright{
+	background:#252525;
+	padding:5px 0px;}
+footer .copyright p{
+	margin:0;}
